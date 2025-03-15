@@ -11,7 +11,8 @@
   "homepage_url": "https://github.com/mike-brady/spoiler-free-daily-chess-puzzle",
   "icons": {
     "32": "icons/sfdcp-32.png",
-    "64": "icons/sfdcp-64.png"
+    "64": "icons/sfdcp-64.png",
+    "128": "icons/sfdcp-128.png",
   },
   "content_scripts": [
     {
