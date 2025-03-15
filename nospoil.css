@@ -1,0 +1,13 @@
+.sfdcp-spoiler {
+  background-color: #383734;
+  border-radius: .3rem;
+  cursor: pointer;
+  color: transparent;
+  transition: background 3s, color 1s;
+}
+
+.sfdcp-spoiler.sfdcp-revealed {
+  background: transparent;
+  color: var(--color-text-boldest);
+  transition: background 2s, color 3s;
+}

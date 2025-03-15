@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Spoiler Free Daily Chess Puzzle",
+  "version": "1.0.0",
+  "description": "Hides the title of the daily puzzle on chess.com which often contains a hint that givesaway the solution. Click on the hidden title to reveal it.",
+  "author": "Mike Brady",
+  "developer": {
+    "name": "Mike Brady",
+    "url": "https://github.com/mike-brady/spoiler-free-daily-chess-puzzle"
+  },
+  "homepage_url": "https://github.com/mike-brady/spoiler-free-daily-chess-puzzle",
+  "icons": {
+    "32": "icons/sfdcp-32.png",
+    "64": "icons/sfdcp-64.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.chess.com/daily-chess-puzzle*"],
+      "js": ["nospoil.js"],
+      "css": ["nospoil.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
