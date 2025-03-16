@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # get directory paths
 dist=$(cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd)
 parent=$(dirname $dist)
@@ -10,9 +12,10 @@ for browser in firefox chrome; do
 
   name=$(jq .name manifest.json -r | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
   version=$(jq .version manifest.json -r)
-
   filename="$name-$version-$browser.zip"
+
   echo creating $filename
   zip -r $dist/$filename . -x manifest.*.json
+
   rm manifest.json
 done
