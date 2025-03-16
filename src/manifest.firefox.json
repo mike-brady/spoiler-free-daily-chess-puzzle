@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Spoiler Free Daily Chess Puzzle",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Hides the title of the daily puzzle on chess.com which often contains a hint that gives away the solution. Clicking on the hidden title reveals it.",
   "author": "Mike Brady",
   "developer": {
