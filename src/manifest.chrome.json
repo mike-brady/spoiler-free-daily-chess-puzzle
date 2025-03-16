@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Spoiler Free Daily Chess Puzzle",
   "version": "1.1.0",
-  "description": "Hides the title of the daily puzzle on chess.com which often contains a hint that gives away the solution. Clicking on the hidden title reveals it.",
+  "description": "Hides the title of the daily puzzle on chess.com which often gives away the solution. Clicking on the hidden title reveals it.",
   "author": "Mike Brady",
   "homepage_url": "https://github.com/mike-brady/spoiler-free-daily-chess-puzzle",
   "icons": {
