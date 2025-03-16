@@ -21,5 +21,10 @@
       "css": ["nospoil.css"],
       "run_at": "document_idle"
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{5a7769fa-311e-443f-8c48-e97a01317cbb}"
+    }
+  }
 }
