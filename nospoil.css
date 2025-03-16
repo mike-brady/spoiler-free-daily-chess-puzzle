@@ -2,12 +2,12 @@
   background-color: #383734;
   border-radius: .3rem;
   cursor: pointer;
-  color: transparent;
+  color: transparent !important;
   transition: background 3s, color 1s;
 }
 
 .sfdcp-spoiler.sfdcp-revealed {
   background: transparent;
-  color: var(--color-text-boldest);
+  color: var(--color-text-boldest) !important;
   transition: background 2s, color 3s;
 }
